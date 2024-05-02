@@ -70,12 +70,7 @@ h1 {
 
 header {
     background: #136c72;
-    padding: .5em 0;
-}
-
-.nav {
-    width: 62%;
-    padding-left: 100px;
+    padding: 1em 0;
 }
 
 .nav__list {
@@ -83,8 +78,10 @@ header {
     padding: 0;
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+.nav__item {
+    margin-right: 1em;
 }
 
 .nav__link {
