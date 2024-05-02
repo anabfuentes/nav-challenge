@@ -73,10 +73,18 @@ header {
     padding: .5em 0;
 }
 
+.nav {
+    width: 62%;
+    padding-left: 100px;
+}
+
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav__link {
